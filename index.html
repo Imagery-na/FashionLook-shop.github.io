@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="css/base/jquery-ui-1.9.2.custom.css" rel="stylesheet">
+    <script src="js/jquery-1.8.3.js"></script>
+    <script src="js/jquery-ui-1.9.2.custom.js"></script>
+    
+</head>
+<body>
+
+  <div id="modal">
+    <div id="close_mod">
+      <img src="img/close.png" alt="">
+    </div>
+    <div id="content_mod">
+      ВХОД В ЛИЧНЫЙ КАБИНЕТ
+      <form action="">
+        <div class="input">
+            <input type="text"name="login" placeholder="ЛОГИН">
+        </div>
+        <div class="input">
+            <input type="password"name="password" placeholder="ПАРОЛЬ">
+        </div>
+        <button class="btn submit">ВОЙТИ</button> 
+      </form>
+    </div>
+  </div>
+  <div id="black_fill"></div>
+<div id="cart_box" class="anime">
+   <div class="title_cart">
+     <p>МОЯ КОРЗИНА</p>
+     <img src="img/next.png">
+   </div>
+   <div>Общая сумма: <span class='price_total'>0</span></div>
+   <div class="content_cart"></div>
+   <div id="order" class="btn anime">
+     ЗАКАЗАТЬ
+     <img src="img/cart.png">
+   </div>
+</div>
+
+
+<header class="dark">
+  <div id="top"class="wrap">
+          <div id="sign" class="btn anime">
+              <img src="img/1.png">
+              ВОЙТИ
+          </div>
+          <div id="location">
+                Страна:
+                <span>РОССИЯ</span>
+          </div>
+          <div id="logo">
+              <a href="#"> Fashion look </a>
+          </div>
+          <div id="currency">
+                Валюта:
+                <span>US DOLLAR</span>
+          </div>
+          <div id="cart" class="btn anime">
+                <p class="counter"></p>
+                <img src="img/2.png">
+                КОРЗИНА
+          </div>
+    </div>
+    <div id="menu" class="wrap">
+       <nav id="main_nav">
+         <li><a href="#" class="anime">ОДЕЖДА</a></li>
+         <li><a href="#"class="anime">ОБУВЬ</a></li>
+         <li><a href="#"class="anime">ВЕРХНЯЯ ОДЕЖДА</a></li>
+         <li><a href="#"class="anime">АКСЕССУАРЫ</a></li>
+         <li><a href="#"class="anime">БРЕНДЫ</a></li>
+         <li><a href="#"class="anime">БЛОГ</a></li>
+       </nav>
+       <div id="search_panel">
+         <input type="text" placeholder="ПОИСК">
+       </div>
+       <div id="search_button">
+         <img src="img/3.png" id="search_button">
+      </div>
+     </div>
+   </div>
+</header>
+<div id="banner">
+  <img src="img/Brand.png">
+</div>
+<main class="wrap">
+     <div id="leftbar">
+        <div id='category' class="box">
+            <div class="list_box">
+              <div class="title_box">
+                <p>ОДЕЖДА</p>
+                <img src="img/4.png">
+              </div>
+              <div class="list_link">
+                 <nav>
+                   <li><a href="#" class="anime">ПЛАТЬЯ</a></li>
+                   <li><a href="#"class="anime">БЛУЗКИ</a></li>
+                   <li><a href="#"class="anime">БРЮКИ</a></li>
+                   <li><a href="#"class="anime">ДЖИНСЫ</a></li>
+                   <li><a href="#"class="anime">ЮБКИ</a></li>
+                   <li><a href="#"class="anime">СВИТШОТЫ</a></li>
+                 </nav>
+              </div>
+            </div>
+            <div class="list_box">
+                <div class="title_box">
+                  <p>ОБУВЬ</p>
+                  <img src="img/4.png">
+                </div>
+                <div class="list_link">
+                   <nav>
+                     <li><a href="#" class="anime">ТУФЛИ</a></li>
+                     <li><a href="#"class="anime">БОСОНОЖКИ</a></li>
+                     <li><a href="#"class="anime">КРОССОВКИ</a></li>
+                     <li><a href="#"class="anime">КЕДЫ</a></li>
+                     <li><a href="#"class="anime">БОТИНКИ</a></li>
+                     <li><a href="#"class="anime">САПОГИ</a></li>
+                   </nav>
+                </div>
+              </div>
+              <div class="list_box">
+                  <div class="title_box">
+                    <p>ВЕРХНЯЯ ОДЕЖДА</p>
+                    <img src="img/4.png">
+                  </div>
+                  <div class="list_link">
+                     <nav>
+                       <li><a href="#" class="anime">ПАЛЬТО</a></li>
+                       <li><a href="#"class="anime">КУРТКИ</a></li>
+                       <li><a href="#"class="anime">ПЛАЩИ</a></li>
+                       <li><a href="#"class="anime">ПАРКИ</a></li>
+                       <li><a href="#"class="anime">ВЕТРОВКИ</a></li>
+                       <li><a href="#"class="anime">ПУХОВИКИ</a></li>
+                     </nav>
+                  </div>
+                </div>
+                <div class="list_box">
+                    <div class="title_box">
+                      <p>АКСЕССУАРЫ</p>
+                      <img src="img/4.png">
+                    </div>
+                    <div class="list_link">
+                       <nav>
+                         <li><a href="#" class="anime">СУМКИ</a></li>
+                         <li><a href="#"class="anime">ШАРФЫ</a></li>
+                         <li><a href="#"class="anime">БИЖУТЕРИЯ</a></li>
+                         <li><a href="#"class="anime">ЧАСЫ</a></li>
+                         <li><a href="#"class="anime">ШЛЯПЫ</a></li>
+                         <li><a href="#"class="anime">РЕМНИ</a></li>
+                       </nav>
+                    </div>
+                  </div>
+        </div>
+       <div class="filter_box box">
+           <div class="title_filter">
+              <p>ЦВЕТА</p>
+           </div>
+           <div class="content_filter">
+              <ul class="list_filter color_list">
+                <li>
+                  <input id="blue" type="checkbox">
+                  <label style="background-color: #3585e6" for="blue"></label>
+                </li>
+                <li><input id="dark_blue" type="checkbox"><label style="background-color: #21389e"for="dark_blue"></label></li>
+                <li><input id="purple" type="checkbox"><label style="background-color: #9320d6"for="purple"></label></li>
+                <li><input id="pink" type="checkbox"><label style="background-color: #e97ec9"for="pink"></label></li>
+                <li><input id="red" type="checkbox"><label style="background-color: #d41132"for="red"></label></li>
+                <li><input id="orange" type="checkbox"><label style="background-color: #ce750f"for="orange"></label></li>
+                <li><input id="yellow" type="checkbox"><label style="background-color: #eee239"for="yellow"></label></li>
+                <li><input id="green" type="checkbox"><label style="background-color: #2fc572"for="green"></label></li>
+                <li><input id="grey" type="checkbox"><label style="background-color: #6f7174"for="grey"></label></li>
+                <li><input id="black" type="checkbox"><label style="background-color: #000000"for="black"></label></li>
+              </ul>
+           </div>
+      </div>
+      <div class="filter_box box">
+           <div class="title_filter">
+              <p>РАЗМЕРЫ</p>
+           </div>
+           <div class="content_filter">
+              <ul class="list_filter">
+                <li><input id="size1" type="checkbox"><label for="size1">XS</label></li>
+                <li><input checked id="size2" type="checkbox"><label for="size2">S</label></li>
+                <li><input id="size3" type="checkbox"><label for="size3">M</label></li>
+                <li><input id="size4" type="checkbox"><label for="size4">L</label></li>
+                <li><input id="size5" type="checkbox"><label for="size5">XL</label></li>
+              </ul>
+           </div>
+        </div>
+        <div class="filter_box box">
+            <div class="title_filter">
+               <p>ЦЕНА</p>
+            </div>
+            <div class="content_filter">
+              <div id="slider_price"></div>
+              <div class="price_box">
+                  <input type="text" name="minPrice">
+                  <input type="text" name="maxPrice">
+              </div>
+            </div>
+        </div>    
+      </div>
+     <div id="rightbar">
+        <div class="list_product">           
+               <a class="product box anime">
+                <div class="img_product">
+                  <img src="img/clothes1.png" alt="">
+                </div>
+                <h2>Бомбер</h2>
+                <p>Black Panther</p>
+                <p class="price">$290</p>
+                <button class="btn">Добавить в корзину</button>
+              </a>
+              <a class="product box anime">
+                <div class="tag box">NEW</div>
+                <div class="img_product">
+                  <img src="img/clothes2.png" alt="">
+                </div>
+                <h2>Ветровка</h2>
+                <p>Mango</p>
+                <p class="price">$350</p>
+                <button class="btn">Добавить в корзину</button>
+              </a>
+            <a class="product box anime">
+                <div class="img_product">
+                  <img src="img/clothes3.png" alt="">
+                </div>
+                <h2>Худи</h2>
+                <p>Fashion-professional</p>
+                <p class="price">$270</p>
+                <button class="btn">Добавить в корзину</button>
+            </a>
+            <a class="product box anime">
+                <div class="tag box">NEW</div>
+                <div class="img_product">
+                  <img src="img/clothes4.png" alt="">
+                </div>
+                <h2>Кофта</h2>
+                <p>Burberries</p>
+                <p class="price">$180</p>
+                <button class="btn">Добавить в корзину</button>
+            </a>
+            <a class="product box anime">
+                <div class="img_product">
+                  <img src="img/clothes5.png" alt="">
+                </div>
+                <h2>Толстовка</h2>
+                <p>Grey Wolf</p>
+                <p class="price">$220</p>
+                <button class="btn">Добавить в корзину</button>
+            </a>
+            <a class="product box anime ">
+                <div class="img_product">
+                  <img src="img/clothes6.png" alt="">
+                </div>
+                <h2>Бомбер</h2>
+                <p>Be yourself</p>
+                <p class="price">$290</p>
+                <button class="btn">Добавить в корзину</button>
+            </a>
+        </div>
+        <button id="loadmore" class="anime .reset_style" type="button">ЗАГРУЗИТЬ ЕЩЁ</button>
+     </div>
+</main>
+<footer>
+  <div class="wrap">
+        <nav id="footer_nav">
+          <li><a href="#">ИНФОРМАЦИЯ</a></li>
+          <li><a href="#">ПАРТНЁРАМ</a></li>
+          <li><a href="#">СКИДКИ</a></li>
+          <li><a href="#">ДОСТАВКА</a></li>
+          <li><a href="#">ВОПРОСЫ</a></li>
+          <li><a href="#">КОНТАКТЫ</a></li>
+        </nav>    
+    <div id="newsletter">
+       <p>ПОДПИСАТЬСЯ НА РАССЫЛКУ</p>
+       <input type="text" placeholder="E-mail">
+    </div>
+    <div>
+        <ul id="soc_list">
+         <li><a target="blank" href="#"><img src="img/vk.png"></a></li>
+         <li><a target="blank" href="#"><img src="img/fb.png"></a></li>
+         <li><a target="blank" href="#"><img src="img/twi.png"></a></li>
+        </ul>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
