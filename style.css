@@ -578,7 +578,7 @@ footer{
 #search_panel.open{
   display: block !important;
 }
-@media (max-width: 400px){
+@media (max-width: 600px){
   body{
     font-size: 2vmax;
     line-height: 1.33vmax;
