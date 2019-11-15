@@ -284,7 +284,7 @@ nav a{
   letter-spacing: 0.1vw;
 }
 .title_box img{
-  width: 1vw;
+  height: 35%;
 }
 .title_box.open img{
   transform: rotate(90deg);
@@ -578,7 +578,7 @@ footer{
 #search_panel.open{
   display: block !important;
 }
-@media (max-width: 600px){
+@media (max-width: 400px){
   body{
     font-size: 2vmax;
     line-height: 1.33vmax;
@@ -672,7 +672,7 @@ footer{
   #sign, #cart{
     position: absolute;
     bottom: 0;
-    font-size: 3vw;
+    font-size: 3.2vw;
   }
   #sign img, #cart img{
     width: 6vw;
@@ -690,7 +690,8 @@ footer{
     top: 1vh;
     height: 6vh;
     width: 100vw;
-    font-size: 5vh;
+    letter-spacing: 0.5vw;
+    font-size: 5.2vh;
     font-weight: bold;
   }
   #cart_box{
@@ -707,6 +708,9 @@ footer{
   #order {
     font-size: 2vh;
     height: 3vh;
+  }
+  #loadmore{
+    font-size: 2vmax;
   }
 }
 
